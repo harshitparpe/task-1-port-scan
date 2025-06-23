@@ -1,0 +1,85 @@
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-06-23 18:51 +0530
+Nmap scan report for dsldevice.lan (192.168.1.1)
+Host is up (0.028s latency).
+Not shown: 983 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+80/tcp    open   http
+443/tcp   open   https
+445/tcp   closed microsoft-ds
+631/tcp   closed ipp
+8008/tcp  closed http
+8099/tcp  closed unknown
+49152/tcp closed unknown
+49153/tcp closed unknown
+49154/tcp closed unknown
+49155/tcp closed unknown
+49156/tcp closed unknown
+49157/tcp closed unknown
+49158/tcp closed unknown
+49159/tcp closed unknown
+49160/tcp closed unknown
+49161/tcp closed unknown
+49163/tcp closed unknown
+MAC Address: 78:4F:24:FF:6F:80 (Taicang T&W Electronics)
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0046s latency).
+All 1000 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 60:7E:A4:3A:D5:37 (Shanghai Imilab TechnologyLtd)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.063s latency).
+All 1000 scanned ports on 192.168.1.4 are in ignored states.
+Not shown: 932 closed tcp ports (reset), 68 filtered tcp ports (no-response)
+MAC Address: 62:F4:CD:10:C3:B9 (Unknown)
+
+Nmap scan report for 192.168.1.7
+Host is up (0.0048s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+9080/tcp open  glrpc
+MAC Address: B8:59:CE:21:48:AD (Earda Technologies)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.0065s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+9080/tcp open  glrpc
+MAC Address: 4C:6B:B8:12:C2:2B (Hui Zhou Gaoshengda Technology)
+
+Nmap scan report for 192.168.1.14
+Host is up (0.11s latency).
+All 1000 scanned ports on 192.168.1.14 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 92:69:9D:EA:E5:B3 (Unknown)
+
+Nmap scan report for 192.168.1.23
+Host is up (0.0057s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+MAC Address: 4A:20:A0:72:4E:65 (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.00079s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1521/tcp open  oracle
+2869/tcp open  icslap
+3306/tcp open  mysql
+6646/tcp open  unknown
+
+Nmap done: 256 IP addresses (8 hosts up) scanned in 383.24 seconds
